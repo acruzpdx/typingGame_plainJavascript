@@ -1,0 +1,103 @@
+/*------------------------------------------------------------------*
+ * File: 		bus.css
+ * Author: 		Agapito Cruz (agapito.cruz@gmail.com)
+ * Comments:	This file was written to demonstrate proficiency
+ * 				with CSS.
+ * 				This is one of three files needed to play the
+ * 				typingGame. The other three are: typingGame.js and
+ * 				index.html.
+ ------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*
+ * G L O B A L 
+ ------------------------------------------------------------------*/
+body,section,header,footer,div,form,input,label,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+	margin:0;
+	padding:0;
+	font-family:  Tahoma, sans-serif;
+	font-size:1vw;
+}
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	font-size:1vw;
+}
+/*------------------------------------------------------------------*
+ * H E A D E R
+ ------------------------------------------------------------------*/
+header {
+	background:rgb(2, 42, 53);
+	height:10%;
+}
+header h1 {
+	color:white;
+	font-size:3vw;
+}
+/*------------------------------------------------------------------*
+ * G A M E B O A R D
+ ------------------------------------------------------------------*/
+#gameBoard {
+	height:85%;
+	width:100%;
+	background: rgb(38, 91, 106);
+	color:yellow;
+}
+
+/*------------------------------------------------------------------*
+ * O V E R L A Y
+ * ------------------------------------------------------------------*/
+.overlay {
+	position:absolute;
+	display:block;
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	background: rgba(0,0,0,0.5);
+	text-align:center;
+}
+/*------------------------------------------------------------------*
+ * M S G B O X
+ * ------------------------------------------------------------------*/
+.msgBox {
+	position:relative;
+	top:33%;
+	height:33%;
+	left:33%;
+	width:33%;
+	font-size:2vw;
+	text-align:center;
+	background:yellow;
+	color:blue;
+}
+/*------------------------------------------------------------------*
+ * B L O C K
+ ------------------------------------------------------------------*/
+.block {
+	position:absolute;
+	margin:0;
+	height:5%;
+	left:0px;
+	width:10%;
+	box-sizing:border-box;
+	border: 2px solid white;
+	color:white;
+	text-align:center;
+	padding-top:0;
+	padding-bottom:0;
+	font-size:1.75vw;
+}
+/*------------------------------------------------------------------*
+ * F O O T E R
+ ------------------------------------------------------------------*/
+footer {
+	height:5%;
+	background:rgb(2, 42, 53);
+
+	color:yellow;
+	font-size:2vw;
+	text-align:center;
+
+}
