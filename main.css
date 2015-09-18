@@ -33,7 +33,11 @@ header {
 }
 header h1 {
 	color:white;
-	font-size:3vw;
+	font-size:2vw;
+}
+header p {
+	color:white;
+	font-size:1vw;
 }
 /*------------------------------------------------------------------*
  * G A M E B O A R D
@@ -97,7 +101,6 @@ footer {
 	background:rgb(2, 42, 53);
 
 	color:yellow;
-	font-size:2vw;
+	font-size:1.5vw;
 	text-align:center;
-
 }
